@@ -1,14 +1,18 @@
 @import url("components/card.css");
 @import url("components/btn.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
-  background-color: black;
+  background-color: lightgray;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .list-inline{
   list-style: none;
   color: gray;
 }
+
+/* Deixar a lista alinhada */
 
 .list-inline li{
   display: inline-block;

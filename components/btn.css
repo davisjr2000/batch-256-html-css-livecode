@@ -1,10 +1,11 @@
-.btn{
-  background-color: red;
+/* Componente do botão (btn)*/
+ .btn {
+  background: white;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 4px;
+  color: gray;
+  padding: 4px 8px;
+  margin: 8px;
+  display: inline-block;
   text-decoration: none;
-  border: 1px solid black;
-  color: white;
-  padding: 10px;
-  border-radius: 10%;
-  opacity: 0;
-  transition: 0.3s;
 }
