@@ -1,0 +1,21 @@
+@import url("components/card.css");
+@import url("components/btn.css");
+
+body {
+  background-color: black;
+}
+
+.list-inline{
+  list-style: none;
+  color: gray;
+}
+
+.list-inline li{
+  display: inline-block;
+  float: right;
+  margin: 0 5px;
+}
+
+.list-inline > li > i{
+  margin: 0 3px;
+}
